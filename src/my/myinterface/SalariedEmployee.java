@@ -1,21 +1,20 @@
-package my.concrete;
+package my.myinterface;
 
 /**
  * Created by Timothy on 8/29/2014.
  */
-public class SalariedEmployee extends Employee{
-    private double salary = 0.0;
-    private int vacation = 10; //Vacation days left
+public class SalariedEmployee implements Employee{
+    private String first;
+    private String last;
+    private double salary;
+    private int vacation;
 
     public SalariedEmployee(String first, String last, double salary, int vacation) {
-        super(first, last);
+        this.first = first;
+        this.last = last;
         this.salary = salary;
         this.vacation = vacation;
     }
-    public void goVacation(int days) {
-        this.vacation -= days;
-    }
-
     @Override
     public double pay() {
         return salary/26;

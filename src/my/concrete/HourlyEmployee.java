@@ -20,6 +20,7 @@ public class HourlyEmployee extends Employee {
      * Function to figure out how much they should be paid
      * @return how much they should be paid
      */
+    @Override
     public double pay() {
         return hours*wage;
     }

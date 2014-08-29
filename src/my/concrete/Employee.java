@@ -12,4 +12,7 @@ public class Employee {
         this.first = first;
         this.last = last;
     }
+    public double pay() {
+        return 0.0;
+    };
 }
