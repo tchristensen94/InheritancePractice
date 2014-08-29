@@ -19,4 +19,8 @@ public class SalariedEmployee implements Employee{
     public double pay() {
         return salary/26;
     }
+
+    public void goVacation(int days) {
+        this.vacation -= days;
+    }
 }
