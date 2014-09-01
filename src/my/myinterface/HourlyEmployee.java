@@ -23,4 +23,9 @@ public class HourlyEmployee implements Employee {
     public double pay() {
         return hours*wage;
     }
+
+    @Override
+    public String getName() {
+        return first + " " + last;
+    }
 }

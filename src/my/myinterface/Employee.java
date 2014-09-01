@@ -5,4 +5,6 @@ package my.myinterface;
  */
 public interface Employee {
     double pay();
+
+    String getName();
 }

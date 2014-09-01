@@ -23,4 +23,9 @@ public class SalariedEmployee implements Employee{
     public void goVacation(int days) {
         this.vacation -= days;
     }
+
+    @Override
+    public String getName() {
+        return first + " " + last;
+    }
 }
