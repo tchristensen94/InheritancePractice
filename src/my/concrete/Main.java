@@ -1,9 +1,9 @@
-package my.myabstract;
+package my.concrete;
 
 import java.util.LinkedList;
 
 /**
- * Created by Timothy on 8/31/2014.
+ * Created by Timothy on 9/1/2014.
  */
 public class Main {
 
